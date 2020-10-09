@@ -35,18 +35,18 @@ console.log( sumAll(1, 2, 3) ); // 6
 */
 
 
-setTimeout(()=>{
-  console.log('hello testing program');
-for(let index=0;index<10;index++){
-  const element=index;
-  console.log('this is the index no'+index);
+// setTimeout(()=>{
+//   console.log('hello testing program');
+// for(let index=0;index<10;index++){
+//   const element=index;
+//   console.log('this is the index no'+index);
 
-}
+// }
 
 
-},1000);
+// },1000);
 
-console.log('done printing');
+// console.log('done printing');
 
 // const matrixElement = document.getElementById("matrix");
 // const GRID_SIZE = 8;
@@ -106,7 +106,20 @@ console.log('done printing');
 //   bottomRight.box.innerHTML = topRight.box.innerHTML;
 //   topRight.box.innerHTML = original;
 // };
+// let arr=[1,2,3,4,5,6,7,8];
+// let result=arr.map((e)=>e % 2==0);
+// console.log(res);
 
+//function to remove duplicacy
+function removeDuplicate(a){
+return[...new set[a]];
+}
+
+//concat
+function concat(a,b){
+  return[...a,...b];
+}
+concat(2,4);
 
 
 
